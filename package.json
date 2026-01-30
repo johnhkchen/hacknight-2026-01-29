@@ -12,16 +12,22 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test": "vitest run",
 		"test:watch": "vitest",
-		"test:bench": "vitest bench"
+		"test:bench": "vitest bench",
+		"generate-videos": "tsx scripts/generate-videos.ts",
+		"generate-all": "tsx scripts/generate-all-missing.ts",
+		"backfill-failed": "tsx scripts/backfill-failed-videos.ts",
+		"check-status": "tsx scripts/check-video-status.ts"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-cloudflare": "^6.0.1",
 		"@sveltejs/kit": "^2.50.1",
 		"@sveltejs/vite-plugin-svelte": "^5.1.1",
 		"@types/leaflet": "^1.9.21",
+		"@types/node": "^22.10.5",
 		"@types/suncalc": "^1.9.2",
 		"svelte": "^5.48.2",
 		"svelte-check": "^4.3.5",
+		"tsx": "^4.19.2",
 		"typescript": "^5.9.3",
 		"vite": "^6.0.0",
 		"vitest": "^3.2.4",

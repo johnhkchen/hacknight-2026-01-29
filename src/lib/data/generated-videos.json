@@ -1,0 +1,142 @@
+{
+  "videos": [
+    {
+      "spotId": "ferry-building",
+      "eraId": "ferry-building-construction",
+      "prompt": "San Francisco Ferry Building in 1900, the grand Beaux-Arts terminal with its iconic clock tower, crowds of well-dressed commuters in bowler hats and long skirts streaming toward ferry boats, horse-drawn carriages and early automobiles on the Embarcadero, American flags flying, steam whistles and bell sounds implied by the bustling activity. Sweeping crane shot revealing the full building facade. Period newsreel style, black and white, documentary authenticity. early cinema style, black and white, slight flicker, hand-cranked feel, high contrast black and white, grainy texture, static or slow panning shots, theatrical framing",
+      "localPath": "static/videos/ferry-building-ferry-building-construction.mp4",
+      "status": "ready",
+      "createdAt": "2026-01-30T03:08:19.939Z",
+      "completedAt": "2026-01-30T03:11:16.828Z",
+      "taskId": "ebb9f883-e003-4ea8-ba94-0c09c81985b5"
+    },
+    {
+      "spotId": "ferry-building",
+      "eraId": "ferry-building-freeway",
+      "prompt": "San Francisco Ferry Building in 1975 obscured by the elevated Embarcadero Freeway, concrete highway structure dominating the waterfront, the clock tower barely visible behind highway pillars, sparse foot traffic, urban decay atmosphere, parked cars from the era, muted colors and overcast sky. Static wide shot emphasizing the freeway's imposing presence. Gritty 1970s documentary style, desaturated colors, film grain. classic Hollywood cinematography, fine film grain, rich contrast, black and white or early Technicolor, deep shadows, smooth dolly shots, professional framing, golden age composition",
+      "localPath": "static/videos/ferry-building-ferry-building-freeway.mp4",
+      "status": "ready",
+      "createdAt": "2026-01-30T03:11:16.829Z",
+      "completedAt": "2026-01-30T03:13:40.306Z",
+      "taskId": "5f7e9c98-11c4-46f9-b069-747809322269"
+    },
+    {
+      "spotId": "ferry-building",
+      "eraId": "ferry-building-renaissance",
+      "prompt": "Modern San Francisco Ferry Building on a Saturday morning, bustling farmers market with colorful produce stands, food lovers sampling artisan cheeses and fresh pastries, the restored clock tower gleaming in sunlight, palm trees lining the Embarcadero, ferry boats visible at the docks, cyclists and pedestrians enjoying the open waterfront. Smooth steadicam shot weaving through the market crowd. Contemporary food documentary style, warm natural lighting, appetizing details. contemporary HD video, crisp detail, natural grain, natural colors, balanced exposure, modern color science, smooth gimbal movement, cinematic framing",
+      "localPath": "static/videos/ferry-building-ferry-building-renaissance.mp4",
+      "status": "ready",
+      "createdAt": "2026-01-30T03:13:40.307Z",
+      "completedAt": "2026-01-30T03:16:51.995Z",
+      "taskId": "b77b025b-5fd0-4121-9020-1f56b897f5ef"
+    },
+    {
+      "spotId": "fishermans-wharf",
+      "eraId": "fishermans-wharf-gold-rush",
+      "prompt": "San Francisco waterfront in 1850, wooden docks extending into the bay, tall-masted sailing ships anchored offshore, men in rough work clothes and wide-brimmed hats unloading cargo crates, morning fog lifting to reveal blue sky, seagulls circling overhead, busy dock workers hauling supplies. Slow panning shot across the bustling harbor. Vintage daguerreotype photography style brought to life, sepia tones, slight film grain, period-accurate details. daguerreotype aesthetic, sepia tones, vignette edges, monochrome with warm brown tones, high contrast, static camera, long takes, formal composition",
+      "localPath": "",
+      "status": "generating",
+      "createdAt": "2026-01-30T03:20:25.022Z"
+    },
+    {
+      "spotId": "fishermans-wharf",
+      "eraId": "fishermans-wharf-industrial",
+      "prompt": "San Francisco Fisherman's Wharf in 1910, Italian fishing boats called feluccas with lateen sails moored at wooden piers, fishermen in wool caps mending nets, stacks of wooden crab traps on the dock, fish market stalls with hand-painted signs, horse-drawn carts carrying ice and fish, early morning golden light. Slow tracking shot along the busy pier. Early cinema documentary style, black and white with slight sepia tint, authentic period atmosphere. early cinema style, black and white, slight flicker, hand-cranked feel, high contrast black and white, grainy texture, static or slow panning shots, theatrical framing",
+      "localPath": "static/videos/fishermans-wharf-fishermans-wharf-industrial.mp4",
+      "status": "ready",
+      "createdAt": "2026-01-30T03:21:02.208Z",
+      "completedAt": "2026-01-30T03:28:53.733Z",
+      "taskId": "3c894ed4-e4c0-4b13-bc31-261e4a8017fa"
+    },
+    {
+      "spotId": "fishermans-wharf",
+      "eraId": "fishermans-wharf-modern",
+      "prompt": "Modern San Francisco Fisherman's Wharf on a sunny day, crowds of tourists walking along the waterfront, sea lions lounging on wooden platforms at Pier 39, street performers entertaining visitors, sourdough bread bowl stands with steam rising, fishing boats in the background, Alcatraz Island visible across the bay. Smooth gimbal shot moving through the lively scene. Contemporary travel documentary style, vibrant colors, cinematic quality. contemporary HD video, crisp detail, natural grain, natural colors, balanced exposure, modern color science, smooth gimbal movement, cinematic framing",
+      "localPath": "",
+      "status": "generating",
+      "createdAt": "2026-01-30T03:20:25.040Z"
+    },
+    {
+      "spotId": "golden-gate-park",
+      "eraId": "ggp-sand-dunes",
+      "prompt": "San Francisco Outside Lands in 1868, vast windswept sand dunes stretching to the horizon, sparse vegetation struggling against the wind, a few wooden survey stakes marking future park boundaries, workers with horse-drawn carts beginning the impossible task of landscaping, Pacific Ocean visible in the distance, fog rolling in. Slow panning shot across the desolate but promising landscape. Historical documentary style, muted earth tones, sense of pioneering ambition. daguerreotype aesthetic, sepia tones, vignette edges, monochrome with warm brown tones, high contrast, static camera, long takes, formal composition",
+      "localPath": "",
+      "status": "generating",
+      "createdAt": "2026-01-30T03:20:25.040Z"
+    },
+    {
+      "spotId": "golden-gate-park",
+      "eraId": "ggp-exposition",
+      "prompt": "San Francisco Golden Gate Park during the 1894 Midwinter Fair, ornate Victorian exhibition buildings with domed towers, crowds in period dress strolling past exotic botanical displays, the Japanese Tea Garden in its original glory, a grand fountain spraying water, festive bunting and flags everywhere, electric lights beginning to glow at dusk. Tracking shot through the fairgrounds. Turn of the century exposition style, warm golden light, sense of wonder and progress. early cinema style, black and white, slight flicker, hand-cranked feel, high contrast black and white, grainy texture, static or slow panning shots, theatrical framing",
+      "localPath": "",
+      "status": "generating",
+      "createdAt": "2026-01-30T03:20:25.040Z"
+    },
+    {
+      "spotId": "golden-gate-park",
+      "eraId": "ggp-summer-love",
+      "prompt": "Golden Gate Park during the 1967 Human Be-In, thousands of hippies gathered on the Polo Fields, colorful tie-dye clothing and flower crowns everywhere, people sitting on blankets and dancing freely, hand-painted banners promoting peace and love, acoustic guitars being played in circles, incense smoke drifting through the air, Timothy Leary on a distant stage. Sweeping aerial-style shot over the peaceful gathering. Vintage 1960s documentary footage style, slightly oversaturated colors, era-defining atmosphere. grainy documentary footage, 16mm film aesthetic, slightly desaturated colors, vintage color grading, handheld camera movement, cinema verité style",
+      "localPath": "static/videos/golden-gate-park-ggp-summer-love.mp4",
+      "status": "ready",
+      "createdAt": "2026-01-30T03:28:53.736Z",
+      "completedAt": "2026-01-30T03:31:01.462Z",
+      "taskId": "15139c21-0369-48ba-9c66-ef0168f652ed"
+    },
+    {
+      "spotId": "chinatown",
+      "eraId": "chinatown-railroad",
+      "prompt": "San Francisco Chinatown in 1875, narrow streets lined with wooden buildings featuring Chinese signage, men in traditional changshan clothing and queue hairstyles, merchants selling goods from open storefronts, hanging paper lanterns, a small temple with incense smoke, laundry hanging between buildings, horse-drawn cart navigating the crowded street. Intimate tracking shot through the busy alley. Historical documentary style, sepia tones, authentic period details. daguerreotype aesthetic, sepia tones, vignette edges, monochrome with warm brown tones, high contrast, static camera, long takes, formal composition",
+      "localPath": "static/videos/chinatown-chinatown-railroad.mp4",
+      "status": "ready",
+      "createdAt": "2026-01-30T03:31:01.463Z",
+      "completedAt": "2026-01-30T03:33:24.491Z",
+      "taskId": "d23c4ce7-9c2f-4007-90e4-283d80181858"
+    },
+    {
+      "spotId": "chinatown",
+      "eraId": "chinatown-rebuild",
+      "prompt": "San Francisco Chinatown being rebuilt in 1910, construction workers on bamboo scaffolding installing decorative pagoda rooftops, new buildings featuring ornate balconies and dragon motifs, merchants reopening shops amid construction, mix of Western and Chinese architectural elements, the famous Dragon Gate under construction, optimistic atmosphere of renewal. Documentary tracking shot through the transforming streetscape. Early cinema style, black and white, historical reconstruction. early cinema style, black and white, slight flicker, hand-cranked feel, high contrast black and white, grainy texture, static or slow panning shots, theatrical framing",
+      "localPath": "static/videos/chinatown-chinatown-rebuild.mp4",
+      "status": "ready",
+      "createdAt": "2026-01-30T03:33:24.491Z",
+      "completedAt": "2026-01-30T03:35:47.900Z",
+      "taskId": "eb0c476c-f982-4629-8313-32c1f401b609"
+    },
+    {
+      "spotId": "chinatown",
+      "eraId": "chinatown-modern",
+      "prompt": "Modern San Francisco Chinatown on a busy afternoon, tourists and locals walking under red lanterns on Grant Avenue, traditional herbal medicine shops next to modern bakeries, elderly residents practicing tai chi in Portsmouth Square, dragons and lions decorating storefronts, the ornate Dragon Gate welcoming visitors, neon signs mixing with traditional calligraphy. Steadicam shot weaving through the colorful streetscape. Contemporary travel documentary style, vibrant colors, cultural richness. contemporary HD video, crisp detail, natural grain, natural colors, balanced exposure, modern color science, smooth gimbal movement, cinematic framing",
+      "localPath": "static/videos/chinatown-chinatown-modern.mp4",
+      "status": "ready",
+      "createdAt": "2026-01-30T03:35:47.901Z",
+      "completedAt": "2026-01-30T03:37:56.039Z",
+      "taskId": "28d71c9d-fb2e-4c74-a85c-bad4f5c6e326"
+    },
+    {
+      "spotId": "alcatraz",
+      "eraId": "alcatraz-fortress",
+      "prompt": "Alcatraz Island in 1865, military fortress bristling with Civil War era cannons, Union soldiers in blue uniforms patrolling the walls, the original lighthouse tower standing tall, military barracks and fortifications covering the island, sailing ships passing in the bay, American flag flying overhead, fog beginning to roll in from the Golden Gate. Dramatic wide shot from approaching boat. Civil War documentary style, period-accurate military atmosphere, historical gravitas. daguerreotype aesthetic, sepia tones, vignette edges, monochrome with warm brown tones, high contrast, static camera, long takes, formal composition",
+      "localPath": "",
+      "status": "generating",
+      "createdAt": "2026-01-30T03:20:25.041Z"
+    },
+    {
+      "spotId": "alcatraz",
+      "eraId": "alcatraz-federal",
+      "prompt": "Nintendo 64 adventure game level set on island facility 1934, blocky low-poly architecture with guard towers, cartoonish characters in vintage uniforms, bright daylight with N64-style bloom, simplified geometric shapes, GoldenEye 007 aesthetic but more whimsical, pastel color palette, obvious polygonal graphics, family-friendly tone, video game UI elements visible, classic late 1990s console game graphics, 320x240 render resolution upscaled, chunky textures, simplified lighting, nostalgic retro gaming aesthetic classic Hollywood cinematography, fine film grain, rich contrast, black and white or early Technicolor, deep shadows, smooth dolly shots, professional framing, golden age composition",
+      "localPath": "",
+      "status": "generating",
+      "createdAt": "2026-01-30T03:54:22.759Z"
+    },
+    {
+      "spotId": "alcatraz",
+      "eraId": "alcatraz-occupation",
+      "prompt": "Alcatraz Island during the 1969 Native American occupation, activists gathered on the dock with painted signs reading 'Indians Welcome' and 'Indian Land', tepees set up on the parade ground, protesters wrapped in colorful blankets, graffiti declaring 'This Land Is My Land', children playing among the abandoned prison buildings, boat approaching with supplies, sense of peaceful defiance. Documentary tracking shot through the occupied island. Late 1960s news footage style, grainy film quality, historic moment of activism. grainy documentary footage, 16mm film aesthetic, slightly desaturated colors, vintage color grading, handheld camera movement, cinema verité style",
+      "localPath": "static/videos/alcatraz-alcatraz-occupation.mp4",
+      "status": "ready",
+      "createdAt": "2026-01-30T03:42:06.529Z",
+      "completedAt": "2026-01-30T03:50:13.017Z",
+      "taskId": "2c28017e-5030-4dae-ae95-e76789c75f45"
+    }
+  ]
+}

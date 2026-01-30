@@ -1,0 +1,219 @@
+{
+  "spots": [
+    {
+      "id": "fishermans-wharf",
+      "name": "Fisherman's Wharf",
+      "description": "San Francisco's iconic waterfront district, once home to the city's fishing fleet and now a bustling tourist destination.",
+      "coordinates": {
+        "latitude": 37.808,
+        "longitude": -122.4177
+      },
+      "imageUrl": "/images/spots/fishermans-wharf.jpg",
+      "category": "Waterfront",
+      "eras": [
+        {
+          "id": "fishermans-wharf-gold-rush",
+          "title": "Gold Rush",
+          "yearStart": 1849,
+          "yearEnd": 1855,
+          "description": "The wharf began as a simple wooden dock where ships arrived carrying prospectors and supplies bound for the gold fields. Sailing vessels crowded the harbor as fortune seekers from around the world poured into San Francisco.",
+          "wanPrompt": "San Francisco waterfront in 1850, wooden docks extending into the bay, tall-masted sailing ships anchored offshore, men in rough work clothes and wide-brimmed hats unloading cargo crates, morning fog lifting to reveal blue sky, seagulls circling overhead, busy dock workers hauling supplies. Slow panning shot across the bustling harbor. Vintage daguerreotype photography style brought to life, sepia tones, slight film grain, period-accurate details.",
+          "videoUrl": null,
+          "icon": "anchor"
+        },
+        {
+          "id": "fishermans-wharf-industrial",
+          "title": "Industrial Era",
+          "yearStart": 1890,
+          "yearEnd": 1920,
+          "description": "Italian immigrants established the fishing fleet that gave the wharf its name. Feluccas and crab pots lined the waterfront as fishermen brought in the day's catch of Dungeness crab, salmon, and herring.",
+          "wanPrompt": "San Francisco Fisherman's Wharf in 1910, Italian fishing boats called feluccas with lateen sails moored at wooden piers, fishermen in wool caps mending nets, stacks of wooden crab traps on the dock, fish market stalls with hand-painted signs, horse-drawn carts carrying ice and fish, early morning golden light. Slow tracking shot along the busy pier. Early cinema documentary style, black and white with slight sepia tint, authentic period atmosphere.",
+          "videoUrl": null,
+          "icon": "factory"
+        },
+        {
+          "id": "fishermans-wharf-modern",
+          "title": "Modern Era",
+          "yearStart": 2000,
+          "yearEnd": null,
+          "description": "Today's wharf is a tourist destination famous for its sea lions, sourdough bread bowls, and seafood restaurants. The fishing fleet still operates but shares the waterfront with shops and attractions.",
+          "wanPrompt": "Modern San Francisco Fisherman's Wharf on a sunny day, crowds of tourists walking along the waterfront, sea lions lounging on wooden platforms at Pier 39, street performers entertaining visitors, sourdough bread bowl stands with steam rising, fishing boats in the background, Alcatraz Island visible across the bay. Smooth gimbal shot moving through the lively scene. Contemporary travel documentary style, vibrant colors, cinematic quality.",
+          "videoUrl": null,
+          "icon": "building"
+        }
+      ]
+    },
+    {
+      "id": "ferry-building",
+      "name": "Ferry Building",
+      "description": "The grand 1898 terminal that served as the city's transportation hub before the bridges, now a celebrated food marketplace.",
+      "coordinates": {
+        "latitude": 37.7955,
+        "longitude": -122.3937
+      },
+      "imageUrl": "/images/spots/ferry-building.jpg",
+      "category": "Waterfront",
+      "eras": [
+        {
+          "id": "ferry-building-construction",
+          "title": "Grand Opening",
+          "yearStart": 1898,
+          "yearEnd": 1906,
+          "description": "The Ferry Building opened in 1898 as the second busiest transit terminal in the world. Its 245-foot clock tower became the defining symbol of San Francisco's waterfront, welcoming thousands of daily commuters.",
+          "wanPrompt": "San Francisco Ferry Building in 1900, the grand Beaux-Arts terminal with its iconic clock tower, crowds of well-dressed commuters in bowler hats and long skirts streaming toward ferry boats, horse-drawn carriages and early automobiles on the Embarcadero, American flags flying, steam whistles and bell sounds implied by the bustling activity. Sweeping crane shot revealing the full building facade. Period newsreel style, black and white, documentary authenticity.",
+          "videoUrl": null,
+          "icon": "ship"
+        },
+        {
+          "id": "ferry-building-freeway",
+          "title": "Freeway Era",
+          "yearStart": 1959,
+          "yearEnd": 1989,
+          "description": "The Embarcadero Freeway cut off the Ferry Building from the city, casting it in shadow and reducing it to a forgotten relic. The building fell into disrepair as ferry traffic dwindled after the bridges opened.",
+          "wanPrompt": "San Francisco Ferry Building in 1975 obscured by the elevated Embarcadero Freeway, concrete highway structure dominating the waterfront, the clock tower barely visible behind highway pillars, sparse foot traffic, urban decay atmosphere, parked cars from the era, muted colors and overcast sky. Static wide shot emphasizing the freeway's imposing presence. Gritty 1970s documentary style, desaturated colors, film grain.",
+          "videoUrl": null,
+          "icon": "building"
+        },
+        {
+          "id": "ferry-building-renaissance",
+          "title": "Modern Renaissance",
+          "yearStart": 2003,
+          "yearEnd": null,
+          "description": "After the 1989 earthquake damaged the freeway, it was demolished and the Ferry Building was restored to glory. Today it houses an artisan food marketplace and hosts the famous Saturday farmers market.",
+          "wanPrompt": "Modern San Francisco Ferry Building on a Saturday morning, bustling farmers market with colorful produce stands, food lovers sampling artisan cheeses and fresh pastries, the restored clock tower gleaming in sunlight, palm trees lining the Embarcadero, ferry boats visible at the docks, cyclists and pedestrians enjoying the open waterfront. Smooth steadicam shot weaving through the market crowd. Contemporary food documentary style, warm natural lighting, appetizing details.",
+          "videoUrl": null,
+          "icon": "building"
+        }
+      ]
+    },
+    {
+      "id": "golden-gate-park",
+      "name": "Golden Gate Park",
+      "description": "A thousand-acre urban oasis transformed from sand dunes into one of the world's great public parks.",
+      "coordinates": {
+        "latitude": 37.7694,
+        "longitude": -122.4862
+      },
+      "imageUrl": "/images/spots/golden-gate-park.jpg",
+      "category": "Parks & Nature",
+      "eras": [
+        {
+          "id": "ggp-sand-dunes",
+          "title": "The Outside Lands",
+          "yearStart": 1865,
+          "yearEnd": 1875,
+          "description": "Before the park, this was nothing but windswept sand dunes called the Outside Lands. Engineers said nothing could grow here, but visionary planners saw potential for a great public park to rival any in the world.",
+          "wanPrompt": "San Francisco Outside Lands in 1868, vast windswept sand dunes stretching to the horizon, sparse vegetation struggling against the wind, a few wooden survey stakes marking future park boundaries, workers with horse-drawn carts beginning the impossible task of landscaping, Pacific Ocean visible in the distance, fog rolling in. Slow panning shot across the desolate but promising landscape. Historical documentary style, muted earth tones, sense of pioneering ambition.",
+          "videoUrl": null,
+          "icon": "mountain"
+        },
+        {
+          "id": "ggp-exposition",
+          "title": "Midwinter Fair",
+          "yearStart": 1894,
+          "yearEnd": 1894,
+          "description": "The California Midwinter International Exposition of 1894 transformed the young park into a wonderland of elaborate buildings, exotic gardens, and attractions that drew visitors from around the world.",
+          "wanPrompt": "San Francisco Golden Gate Park during the 1894 Midwinter Fair, ornate Victorian exhibition buildings with domed towers, crowds in period dress strolling past exotic botanical displays, the Japanese Tea Garden in its original glory, a grand fountain spraying water, festive bunting and flags everywhere, electric lights beginning to glow at dusk. Tracking shot through the fairgrounds. Turn of the century exposition style, warm golden light, sense of wonder and progress.",
+          "videoUrl": null,
+          "icon": "temple"
+        },
+        {
+          "id": "ggp-summer-love",
+          "title": "Human Be-In",
+          "yearStart": 1967,
+          "yearEnd": 1969,
+          "description": "Golden Gate Park became the heart of the counterculture movement. The Human Be-In of 1967 drew 30,000 people to the Polo Fields, launching the Summer of Love and establishing San Francisco as the capital of flower power.",
+          "wanPrompt": "Golden Gate Park during the 1967 Human Be-In, thousands of hippies gathered on the Polo Fields, colorful tie-dye clothing and flower crowns everywhere, people sitting on blankets and dancing freely, hand-painted banners promoting peace and love, acoustic guitars being played in circles, incense smoke drifting through the air, Timothy Leary on a distant stage. Sweeping aerial-style shot over the peaceful gathering. Vintage 1960s documentary footage style, slightly oversaturated colors, era-defining atmosphere.",
+          "videoUrl": null,
+          "icon": "flower"
+        }
+      ]
+    },
+    {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "description": "The oldest Chinatown in North America and the largest Chinese enclave outside Asia, a vibrant neighborhood rich with history and culture.",
+      "coordinates": {
+        "latitude": 37.7941,
+        "longitude": -122.4078
+      },
+      "imageUrl": "/images/spots/chinatown.jpg",
+      "category": "Cultural Districts",
+      "eras": [
+        {
+          "id": "chinatown-railroad",
+          "title": "Railroad Era",
+          "yearStart": 1865,
+          "yearEnd": 1880,
+          "description": "Chinese workers who built the transcontinental railroad settled in this neighborhood, creating a self-sufficient community with their own businesses, temples, and traditions despite facing severe discrimination.",
+          "wanPrompt": "San Francisco Chinatown in 1875, narrow streets lined with wooden buildings featuring Chinese signage, men in traditional changshan clothing and queue hairstyles, merchants selling goods from open storefronts, hanging paper lanterns, a small temple with incense smoke, laundry hanging between buildings, horse-drawn cart navigating the crowded street. Intimate tracking shot through the busy alley. Historical documentary style, sepia tones, authentic period details.",
+          "videoUrl": null,
+          "icon": "train"
+        },
+        {
+          "id": "chinatown-rebuild",
+          "title": "Post-Earthquake Rebuild",
+          "yearStart": 1906,
+          "yearEnd": 1915,
+          "description": "After the 1906 earthquake destroyed the original Chinatown, the community rebuilt in an elaborate Oriental style to attract tourists and prevent relocation. The distinctive architecture we see today was born from this strategic reinvention.",
+          "wanPrompt": "San Francisco Chinatown being rebuilt in 1910, construction workers on bamboo scaffolding installing decorative pagoda rooftops, new buildings featuring ornate balconies and dragon motifs, merchants reopening shops amid construction, mix of Western and Chinese architectural elements, the famous Dragon Gate under construction, optimistic atmosphere of renewal. Documentary tracking shot through the transforming streetscape. Early cinema style, black and white, historical reconstruction.",
+          "videoUrl": null,
+          "icon": "building"
+        },
+        {
+          "id": "chinatown-modern",
+          "title": "Living Heritage",
+          "yearStart": 2000,
+          "yearEnd": null,
+          "description": "Today's Chinatown blends historic charm with modern vitality. Traditional herbalists and dim sum restaurants operate alongside contemporary businesses, while festivals like Chinese New Year draw millions of visitors.",
+          "wanPrompt": "Modern San Francisco Chinatown on a busy afternoon, tourists and locals walking under red lanterns on Grant Avenue, traditional herbal medicine shops next to modern bakeries, elderly residents practicing tai chi in Portsmouth Square, dragons and lions decorating storefronts, the ornate Dragon Gate welcoming visitors, neon signs mixing with traditional calligraphy. Steadicam shot weaving through the colorful streetscape. Contemporary travel documentary style, vibrant colors, cultural richness.",
+          "videoUrl": null,
+          "icon": "temple"
+        }
+      ]
+    },
+    {
+      "id": "alcatraz",
+      "name": "Alcatraz Island",
+      "description": "The infamous island fortress that served as a military prison and federal penitentiary, now a national park revealing layers of history.",
+      "coordinates": {
+        "latitude": 37.8267,
+        "longitude": -122.4233
+      },
+      "imageUrl": "/images/spots/alcatraz.jpg",
+      "category": "Waterfront",
+      "eras": [
+        {
+          "id": "alcatraz-fortress",
+          "title": "Military Fortress",
+          "yearStart": 1859,
+          "yearEnd": 1907,
+          "description": "Alcatraz began as a military fortification guarding San Francisco Bay during the Civil War era. Its strategic position and imposing cannons made it an essential defense post for the growing city.",
+          "wanPrompt": "Alcatraz Island in 1865, military fortress bristling with Civil War era cannons, Union soldiers in blue uniforms patrolling the walls, the original lighthouse tower standing tall, military barracks and fortifications covering the island, sailing ships passing in the bay, American flag flying overhead, fog beginning to roll in from the Golden Gate. Dramatic wide shot from approaching boat. Civil War documentary style, period-accurate military atmosphere, historical gravitas.",
+          "videoUrl": null,
+          "icon": "castle"
+        },
+        {
+          "id": "alcatraz-federal",
+          "title": "Federal Penitentiary",
+          "yearStart": 1934,
+          "yearEnd": 1963,
+          "description": "The Rock became America's most infamous federal prison, housing notorious criminals like Al Capone and Machine Gun Kelly. Its reputation for being escape-proof made it a symbol of ultimate incarceration.",
+          "wanPrompt": "Alcatraz Federal Penitentiary in 1940, the imposing cellhouse dominating the island, guard towers with armed officers scanning the perimeter, prisoners in gray uniforms walking in the recreation yard, a ferry boat marked 'U.S. Penitentiary' approaching the dock, seagulls on the water tower, fog swirling around the stark concrete buildings. Ominous tracking shot approaching the prison dock. Noir documentary style, high contrast black and white, foreboding atmosphere.",
+          "videoUrl": null,
+          "icon": "castle"
+        },
+        {
+          "id": "alcatraz-occupation",
+          "title": "Native American Occupation",
+          "yearStart": 1969,
+          "yearEnd": 1971,
+          "description": "After the prison closed, Native American activists occupied Alcatraz for 19 months, demanding recognition of indigenous rights. This bold protest sparked a national movement and changed federal Indian policy forever.",
+          "wanPrompt": "Alcatraz Island during the 1969 Native American occupation, activists gathered on the dock with painted signs reading 'Indians Welcome' and 'Indian Land', tepees set up on the parade ground, protesters wrapped in colorful blankets, graffiti declaring 'This Land Is My Land', children playing among the abandoned prison buildings, boat approaching with supplies, sense of peaceful defiance. Documentary tracking shot through the occupied island. Late 1960s news footage style, grainy film quality, historic moment of activism.",
+          "videoUrl": null,
+          "icon": "users"
+        }
+      ]
+    }
+  ]
+}

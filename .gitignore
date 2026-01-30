@@ -28,3 +28,6 @@ vite.config.ts.timestamp-*
 # Runtime
 logs/
 .ralph/
+
+# Generated videos (large files - regenerate locally)
+static/videos/

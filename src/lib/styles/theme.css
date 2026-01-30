@@ -1,0 +1,156 @@
+/* ==========================================================================
+   TimeLens - Global Theme & Design Tokens
+   ========================================================================== */
+
+/* Design Tokens
+   ========================================================================== */
+
+:root {
+	/* Colors - Warm museum-exhibit aesthetic */
+	--color-background: #faf8f5; /* Warm cream background */
+	--color-primary: #e07a5f; /* Coral accent for buttons and highlights */
+	--color-secondary: #5f9ea0; /* Muted teal for icons and nav */
+	--color-text: #3d3d3d; /* Dark brown text (not pure black) */
+	--color-text-light: #6b6b6b; /* Secondary text */
+	--color-border: #e5e0db; /* Subtle borders */
+
+	/* Desktop background for phone-preview effect */
+	--color-background-outer: #e8e4e0; /* Light gray for desktop frame */
+
+	/* Typography */
+	--font-family: system-ui, -apple-system, sans-serif;
+	--font-family-display: Georgia, serif;
+
+	/* Font sizes */
+	--text-xs: 0.75rem; /* 12px */
+	--text-sm: 0.875rem; /* 14px */
+	--text-base: 1rem; /* 16px */
+	--text-lg: 1.125rem; /* 18px */
+	--text-xl: 1.25rem; /* 20px */
+	--text-2xl: 1.5rem; /* 24px */
+
+	/* Letterspacing for small caps */
+	--letter-spacing-caps: 0.1em;
+
+	/* Spacing scale */
+	--space-1: 4px;
+	--space-2: 8px;
+	--space-3: 12px;
+	--space-4: 16px;
+	--space-5: 24px;
+	--space-6: 32px;
+	--space-7: 48px;
+	--space-8: 64px;
+
+	/* Responsive container padding */
+	--container-padding: 16px;
+
+	/* Shadows */
+	--shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+	--shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+	--shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+	--shadow-container: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS Reset & Base Styles
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: var(--color-background-outer);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	font-family: var(--font-family);
+	font-size: var(--text-base);
+	line-height: 1.6;
+	color: var(--color-text);
+	background-color: var(--color-background);
+}
+
+/* Responsive Container System
+   ========================================================================== */
+
+.app-container {
+	min-height: 100vh;
+	min-height: 100dvh; /* Use dynamic viewport height on mobile */
+	background-color: var(--color-background);
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* Mobile: Full width with padding */
+@media (max-width: 479px) {
+	.app-container {
+		padding-left: var(--container-padding);
+		padding-right: var(--container-padding);
+	}
+}
+
+/* Tablet: Increased padding */
+@media (min-width: 480px) and (max-width: 767px) {
+	:root {
+		--container-padding: 24px;
+	}
+
+	.app-container {
+		padding-left: var(--container-padding);
+		padding-right: var(--container-padding);
+	}
+}
+
+/* Desktop: Wider tablet-like layout */
+@media (min-width: 768px) {
+	.app-container {
+		max-width: 1024px;
+		box-shadow: var(--shadow-container);
+		padding-left: var(--space-6);
+		padding-right: var(--space-6);
+	}
+}
+
+/* Utility Classes
+   ========================================================================== */
+
+.small-caps {
+	font-variant: small-caps;
+	letter-spacing: var(--letter-spacing-caps);
+}
+
+/* Reset button styles */
+button {
+	font-family: inherit;
+	font-size: inherit;
+	cursor: pointer;
+	border: none;
+	background: none;
+}
+
+/* Reset list styles */
+ul,
+ol {
+	list-style: none;
+}
+
+/* Image defaults */
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* Link defaults */
+a {
+	color: inherit;
+	text-decoration: none;
+}
