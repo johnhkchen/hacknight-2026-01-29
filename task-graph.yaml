@@ -37,10 +37,11 @@ nodes:
     description: Go to the Cloudflare dashboard and create a new Pages project connected to the hacknight-2026-01-29 repo. Configure the build settings to use `bun run build` as the build command and `.svelte-kit/cloudflare` as the output directory (this is the default for adapter-cloudflare). Enable automatic deployments from the main branch.
     priority: 1
     complexity: S
-    status: in-progress
+    status: complete
     assignee: null
     path: docs/active/tickets/T-009-01-cloudflare-pages-setup.md
     claimed_at: "2026-01-30T04:28:28.007Z"
+    completed_at: "2026-01-30T04:52:30.000Z"
   - id: T-009-02
     title: Verify video assets deploy correctly
     story: S-009
@@ -78,8 +79,8 @@ meta:
   by_status:
     ready: 2
     pending: 0
-    in_progress: 1
-    complete: 1
+    in_progress: 0
+    complete: 2
     blocked: 0
   archived_sprint_1:
     stories: S-002, S-003, S-004, S-005, S-006, S-007, S-008
