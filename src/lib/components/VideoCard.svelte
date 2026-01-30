@@ -49,7 +49,7 @@
 			muted
 			playsinline
 			controls
-			src={isIntersecting ? `/${metadata.localPath}` : undefined}
+			src={isIntersecting ? `/${metadata.localPath.replace('static/', '')}` : undefined}
 		>
 			<track kind="captions" />
 		</video>
