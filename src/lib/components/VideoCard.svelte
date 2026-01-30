@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { VideoMetadataEntry } from '$lib/wanx/video-metadata';
+	import type { VideoMetadataEntry } from '$lib/types/video';
 	import type { Spot, Era } from '$lib/types';
 	import { onMount } from 'svelte';
 

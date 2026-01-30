@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { getAllVideoMetadata, getVideosByStatus } from '$lib/wanx/video-metadata';
-	import type { VideoMetadataEntry } from '$lib/wanx/video-metadata';
+	import type { VideoMetadataEntry } from '$lib/types/video';
 	import VideoCard from './VideoCard.svelte';
 	import spotsData from '$lib/data/spots.json';
+	import videosData from '$lib/data/generated-videos.json';
 	import type { Spot, Era } from '$lib/types';
 
 	interface VideoWithContext {
@@ -12,7 +12,7 @@
 	}
 
 	// Get ready videos and join with spot/era data
-	const readyVideos = getVideosByStatus('ready');
+	const readyVideos = videosData.videos.filter((v) => v.status === 'ready');
 
 	const videosWithContext: VideoWithContext[] = readyVideos
 		.map((metadata) => {
@@ -27,7 +27,7 @@
 		.filter((v): v is VideoWithContext => v !== null);
 
 	// Get generation status counts
-	const allMetadata = getAllVideoMetadata();
+	const allMetadata = videosData.videos;
 	const statusCounts = {
 		ready: allMetadata.filter((m) => m.status === 'ready').length,
 		generating: allMetadata.filter((m) => m.status === 'generating').length,
