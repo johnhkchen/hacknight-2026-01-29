@@ -34,7 +34,7 @@
 		"typescript": "^5.9.3",
 		"vite": "^6.0.0",
 		"vitest": "^3.2.4",
-		"wrangler": "^3.99.0"
+		"wrangler": "^4.61.1"
 	},
 	"dependencies": {
 		"@types/tz-lookup": "^6.1.2",

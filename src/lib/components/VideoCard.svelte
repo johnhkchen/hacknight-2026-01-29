@@ -49,7 +49,7 @@
 			muted
 			playsinline
 			controls
-			src={isIntersecting ? `/${metadata.localPath.replace('static/', '')}` : undefined}
+			src={isIntersecting ? `https://timelens-sf-videos.b28.dev/videos/${metadata.localPath.replace('static/videos/', '')}` : undefined}
 		>
 			<track kind="captions" />
 		</video>

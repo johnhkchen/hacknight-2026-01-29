@@ -18,11 +18,11 @@ function enrichSpotWithVideos(spot: Spot, videoMetadata: Array<{ spotId: string;
 			);
 
 			if (metadata && metadata.localPath) {
-				// Strip 'static/' prefix since SvelteKit serves static files from root
-				const videoPath = metadata.localPath.replace(/^static\//, '');
+				// Use R2 CDN for video hosting
+				const filename = metadata.localPath.replace(/^static\/videos\//, '');
 				return {
 					...era,
-					videoUrl: `/${videoPath}`
+					videoUrl: `https://timelens-sf-videos.b28.dev/videos/${filename}`
 				};
 			}
 
