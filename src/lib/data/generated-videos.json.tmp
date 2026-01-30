@@ -34,9 +34,11 @@
       "spotId": "fishermans-wharf",
       "eraId": "fishermans-wharf-gold-rush",
       "prompt": "San Francisco waterfront in 1850, wooden docks extending into the bay, tall-masted sailing ships anchored offshore, men in rough work clothes and wide-brimmed hats unloading cargo crates, morning fog lifting to reveal blue sky, seagulls circling overhead, busy dock workers hauling supplies. Slow panning shot across the bustling harbor. Vintage daguerreotype photography style brought to life, sepia tones, slight film grain, period-accurate details. daguerreotype aesthetic, sepia tones, vignette edges, monochrome with warm brown tones, high contrast, static camera, long takes, formal composition",
-      "localPath": "",
-      "status": "generating",
-      "createdAt": "2026-01-30T03:20:25.022Z"
+      "localPath": "static/videos/fishermans-wharf-fishermans-wharf-gold-rush.mp4",
+      "status": "ready",
+      "createdAt": "2026-01-30T04:05:38.869Z",
+      "completedAt": "2026-01-30T04:09:36.618Z",
+      "taskId": "a734fba7-5116-40b2-97e2-8ac3cbe92977"
     },
     {
       "spotId": "fishermans-wharf",
@@ -52,25 +54,31 @@
       "spotId": "fishermans-wharf",
       "eraId": "fishermans-wharf-modern",
       "prompt": "Modern San Francisco Fisherman's Wharf on a sunny day, crowds of tourists walking along the waterfront, sea lions lounging on wooden platforms at Pier 39, street performers entertaining visitors, sourdough bread bowl stands with steam rising, fishing boats in the background, Alcatraz Island visible across the bay. Smooth gimbal shot moving through the lively scene. Contemporary travel documentary style, vibrant colors, cinematic quality. contemporary HD video, crisp detail, natural grain, natural colors, balanced exposure, modern color science, smooth gimbal movement, cinematic framing",
-      "localPath": "",
-      "status": "generating",
-      "createdAt": "2026-01-30T03:20:25.040Z"
+      "localPath": "static/videos/fishermans-wharf-fishermans-wharf-modern.mp4",
+      "status": "ready",
+      "createdAt": "2026-01-30T04:05:38.885Z",
+      "completedAt": "2026-01-30T04:07:46.954Z",
+      "taskId": "b5872627-1c22-4c65-a634-a40640a0fbcc"
     },
     {
       "spotId": "golden-gate-park",
       "eraId": "ggp-sand-dunes",
       "prompt": "San Francisco Outside Lands in 1868, vast windswept sand dunes stretching to the horizon, sparse vegetation struggling against the wind, a few wooden survey stakes marking future park boundaries, workers with horse-drawn carts beginning the impossible task of landscaping, Pacific Ocean visible in the distance, fog rolling in. Slow panning shot across the desolate but promising landscape. Historical documentary style, muted earth tones, sense of pioneering ambition. daguerreotype aesthetic, sepia tones, vignette edges, monochrome with warm brown tones, high contrast, static camera, long takes, formal composition",
-      "localPath": "",
-      "status": "generating",
-      "createdAt": "2026-01-30T03:20:25.040Z"
+      "localPath": "static/videos/golden-gate-park-ggp-sand-dunes.mp4",
+      "status": "ready",
+      "createdAt": "2026-01-30T04:21:42.487Z",
+      "completedAt": "2026-01-30T04:23:50.544Z",
+      "taskId": "e8777e68-be3a-44f8-9b2e-82c051d32fbc"
     },
     {
       "spotId": "golden-gate-park",
       "eraId": "ggp-exposition",
       "prompt": "San Francisco Golden Gate Park during the 1894 Midwinter Fair, ornate Victorian exhibition buildings with domed towers, crowds in period dress strolling past exotic botanical displays, the Japanese Tea Garden in its original glory, a grand fountain spraying water, festive bunting and flags everywhere, electric lights beginning to glow at dusk. Tracking shot through the fairgrounds. Turn of the century exposition style, warm golden light, sense of wonder and progress. early cinema style, black and white, slight flicker, hand-cranked feel, high contrast black and white, grainy texture, static or slow panning shots, theatrical framing",
-      "localPath": "",
-      "status": "generating",
-      "createdAt": "2026-01-30T03:20:25.040Z"
+      "localPath": "static/videos/golden-gate-park-ggp-exposition.mp4",
+      "status": "ready",
+      "createdAt": "2026-01-30T04:09:41.620Z",
+      "completedAt": "2026-01-30T04:13:08.999Z",
+      "taskId": "41644807-5742-41ae-b945-f95bed004696"
     },
     {
       "spotId": "golden-gate-park",
@@ -116,17 +124,21 @@
       "spotId": "alcatraz",
       "eraId": "alcatraz-fortress",
       "prompt": "Alcatraz Island in 1865, military fortress bristling with Civil War era cannons, Union soldiers in blue uniforms patrolling the walls, the original lighthouse tower standing tall, military barracks and fortifications covering the island, sailing ships passing in the bay, American flag flying overhead, fog beginning to roll in from the Golden Gate. Dramatic wide shot from approaching boat. Civil War documentary style, period-accurate military atmosphere, historical gravitas. daguerreotype aesthetic, sepia tones, vignette edges, monochrome with warm brown tones, high contrast, static camera, long takes, formal composition",
-      "localPath": "",
-      "status": "generating",
-      "createdAt": "2026-01-30T03:20:25.041Z"
+      "localPath": "static/videos/alcatraz-alcatraz-fortress.mp4",
+      "status": "ready",
+      "createdAt": "2026-01-30T04:13:14.001Z",
+      "completedAt": "2026-01-30T04:18:00.736Z",
+      "taskId": "aa751c51-d4c7-43c5-9f43-5c3073cada0f"
     },
     {
       "spotId": "alcatraz",
       "eraId": "alcatraz-federal",
       "prompt": "Nintendo 64 adventure game level set on island facility 1934, blocky low-poly architecture with guard towers, cartoonish characters in vintage uniforms, bright daylight with N64-style bloom, simplified geometric shapes, GoldenEye 007 aesthetic but more whimsical, pastel color palette, obvious polygonal graphics, family-friendly tone, video game UI elements visible, classic late 1990s console game graphics, 320x240 render resolution upscaled, chunky textures, simplified lighting, nostalgic retro gaming aesthetic classic Hollywood cinematography, fine film grain, rich contrast, black and white or early Technicolor, deep shadows, smooth dolly shots, professional framing, golden age composition",
-      "localPath": "",
-      "status": "generating",
-      "createdAt": "2026-01-30T03:54:22.759Z"
+      "localPath": "static/videos/alcatraz-alcatraz-federal.mp4",
+      "status": "ready",
+      "createdAt": "2026-01-30T03:54:22.759Z",
+      "completedAt": "2026-01-30T04:02:15.317Z",
+      "taskId": "adb9abac-958a-4329-a307-a4047e47f82a"
     },
     {
       "spotId": "alcatraz",

@@ -8,54 +8,22 @@ milestones:
   - id: M2
     title: Foundation Ready
     description: Technical infrastructure is in place
-    status: pending
+    status: complete
   - id: M3
     title: MVP Complete
     description: Core user journey works end-to-end
+    status: complete
+  - id: M4
+    title: Production Deployed
+    description: App is live and accessible without local dev server
     status: pending
 stories:
-  - id: S-004
-    title: Era Video Player Component
-    description: Build the video player component that displays WAN-generated videos for each era, with graceful fallback to the prompt placeholder when videos aren't available. The player should loop seamlessly, handle loading states elegantly, and transition smoothly when the user switches eras.
-    status: pending
-    priority: 2
-    path: docs/active/stories/S-004-era-video-player.md
-  - id: S-007
-    title: WAN Video Generation & Local Storage
-    description: Build the end-to-end pipeline that generates "time-warped" videos from spot and era data using Alibaba's WAN text-to-video API, downloads them before the 24-hour URL expiration, and stores them locally for persistent gallery display. This story transforms the static prompt placeholders into actual AI-generated historical footage.
+  - id: S-009
+    title: Production Deployment with Video Hosting
+    description: The hacknight demo has been running locally via `bun dev`, which means it goes down when the laptop closes. All features are complete and the app is ready for production. The project already uses `@sveltejs/adapter-cloudflare` so Cloudflare Pages is the natural deployment target.
     status: pending
     priority: 1
-    path: docs/active/stories/S-007-wan-video-storage.md
-  - id: S-003
-    title: WAN Prompt Framework
-    description: Establish a standardized framework for WAN video generation prompts that ensures visual consistency across eras and spots. This includes defining prompt templates, creating the prompt library for sample content, and building the placeholder display system that shows prompts before videos are generated.
-    status: pending
-    priority: 2
-    path: docs/active/stories/S-003-wan-prompt-framework.md
-  - id: S-005
-    title: Spot Browser Main Page
-    description: Build the main landing page where users browse and select from available historical spots in San Francisco. This is the entry point to the TimeLens experience, presenting the curated collection of locations that users can explore through time.
-    status: pending
-    priority: 1
-    path: docs/active/stories/S-005-spot-browser.md
-  - id: S-002
-    title: Spot Detail View with Era Timeline
-    description: Build the core interface where users view a historical spot and navigate between its eras. This is the heart of the TimeLens experience, showing a header with the spot name, an image carousel at the top, a vertical era timeline for navigation, and expandable historical context for each era.
-    status: pending
-    priority: 1
-    path: docs/active/stories/S-002-spot-detail-view.md
-  - id: S-006
-    title: Spot Detail View Redesign (Accordion Pattern)
-    description: Redesign the Spot Detail View to use a vertical accordion pattern based on the mockup, replacing the original horizontal timeline concept. The new design features expandable era cards, a header with back navigation, an image carousel synced to the selected era, and a warm museum-exhibit aesthetic.
-    status: pending
-    priority: 1
-    path: docs/active/stories/S-006-spot-detail-redesign.md
-  - id: S-008
-    title: Responsive Design & CSS Theme System
-    description: Fix the current layout issues where the app looks awkward on desktop while also not being properly mobile-responsive, and implement a CSS theme system that matches the wireframe design. The app should feel native on mobile phones while gracefully adapting to larger screens with a centered max-width container.
-    status: pending
-    priority: 1
-    path: docs/active/stories/S-008-responsive-theme.md
+    path: docs/active/stories/S-009-deployment.md
   - id: S-001
     title: Project Ideation & Specification
     description: Define what we're building. This is the design phase where we establish the project concept, technical approach, and user experience before writing any implementation code.
@@ -63,60 +31,25 @@ stories:
     priority: 1
     path: docs/active/stories/S-001-ideation.md
 nodes:
-  - id: T-004-01
-    title: Build EraVideoPlayer core with video playback
-    story: S-004
-    description: Build the core EraVideoPlayer component that handles video playback with looping, loading states, and mobile-optimized settings. This component is the technical foundation for displaying WAN-generated historical footage.
-    priority: 2
-    complexity: M
-    status: ready
-    assignee: null
-    path: docs/active/tickets/T-004-01-video-player-core.md
-  - id: T-007-04
-    title: Build video gallery display component
-    story: S-007
-    description: Build a gallery component that displays generated videos with their spot and era metadata. The gallery reads from the metadata store, filters for ready videos, and renders them in a responsive grid using native HTML5 video elements with lazy loading.
+  - id: T-009-01
+    title: Configure Cloudflare Pages deployment
+    story: S-009
+    description: Go to the Cloudflare dashboard and create a new Pages project connected to the hacknight-2026-01-29 repo. Configure the build settings to use `bun run build` as the build command and `.svelte-kit/cloudflare` as the output directory (this is the default for adapter-cloudflare). Enable automatic deployments from the main branch.
     priority: 1
-    complexity: M
-    status: ready
+    complexity: S
+    status: in-progress
     assignee: null
-    path: docs/active/tickets/T-007-04-video-gallery-component.md
-  - id: T-007-03
-    title: Implement JSON-based video metadata tracking
-    story: S-007
-    description: Create a simple JSON-based metadata store that tracks which videos have been generated, their local file paths, generation status, and timestamps. This allows the app to know which era videos are available without scanning the filesystem and provides a record of generation history.
+    path: docs/active/tickets/T-009-01-cloudflare-pages-setup.md
+    claimed_at: "2026-01-30T04:28:28.007Z"
+  - id: T-009-02
+    title: Verify video assets deploy correctly
+    story: S-009
+    description: Run `bun run build` locally and inspect the output to verify videos are included. After the Cloudflare Pages deployment (T-009-01), test video playback on the production site across different browsers and devices. Check that videos load quickly and play smoothly.
     priority: 1
     complexity: S
     status: ready
     assignee: null
-    path: docs/active/tickets/T-007-03-video-metadata-store.md
-  - id: T-002-01
-    title: Define Spot and Era types with data loader
-    story: S-002
-    description: Define the TypeScript interfaces for Spot and Era data models, then create a data loader module that imports from the pre-populated spots.json file. This establishes the type-safe data foundation that all other components will consume.
-    priority: 1
-    complexity: S
-    status: ready
-    assignee: null
-    path: docs/active/tickets/T-002-01-spot-era-types.md
-  - id: T-006-02
-    title: Build EraCard component with collapsed and expanded states
-    story: S-006
-    description: "Build the EraCard component that represents a single era in the accordion. The card has two states: collapsed shows the icon, year, and title in a horizontal row; expanded reveals the full historical description and an audio narration button."
-    priority: 1
-    complexity: M
-    status: complete
-    assignee: null
-    path: docs/active/tickets/T-006-02-era-card.md
-  - id: T-006-04
-    title: Integrate Spot Detail View with new components and design tokens
-    story: S-006
-    description: Update the SpotDetailView page to integrate all new components with the accordion-based layout and apply the design token system. This brings together the header, image carousel, and era accordion into a cohesive museum-exhibit experience.
-    priority: 1
-    complexity: M
-    status: ready
-    assignee: null
-    path: docs/active/tickets/T-006-04-spot-detail-integration.md
+    path: docs/active/tickets/T-009-02-verify-video-assets.md
   - id: T-001-01
     title: Validate DAG system functionality
     story: S-001
@@ -128,152 +61,28 @@ nodes:
     output: docs/active/tickets/T-001-01-test-dag-system.md
     completed_at: 2026-01-30T01:51:57.560Z
     path: docs/active/tickets/T-001-01-test-dag-system.md
-  - id: T-008-02
-    title: Implement responsive container system with desktop centering
-    story: S-008
-    description: Create a responsive container system that makes the app look native on mobile while gracefully presenting a centered "phone preview" on desktop. This solves the current issue where the app looks awkward on larger screens.
-    priority: 1
-    complexity: M
-    status: in-progress
-    assignee: null
-    path: docs/active/tickets/T-008-02-responsive-container.md
-    claimed_at: "2026-01-30T03:24:54.507Z"
-  - id: T-003-01
-    title: Document WAN prompt template pattern and validate prompts
-    story: S-003
-    description: Document the standardized prompt template pattern used for WAN video generation and optionally create a builder utility. The spots.json file already contains 15 complete prompts (5 spots × 3 eras) following the established pattern. This ticket validates the pattern and creates documentation for future content creators.
+  - id: T-009-03
+    title: Document deployment setup and process
+    story: S-009
+    description: Create a DEPLOYMENT.md file in the docs directory that covers the Cloudflare Pages configuration, how automatic deploys work, the production URL, and any troubleshooting tips. Update the README if it exists to mention the production deployment.
     priority: 2
     complexity: S
     status: ready
     assignee: null
-    path: docs/active/tickets/T-003-01-prompt-templates.md
-  - id: T-002-02
-    title: Build SpotDetailView component with header and layout
-    story: S-002
-    description: Build the main SpotDetailView Svelte component that displays a spot with its eras. The component handles routing, loads spot data, manages selected era state, and renders the overall layout structure including header, carousel area, and timeline area.
-    priority: 1
-    complexity: M
-    status: ready
-    assignee: null
-    path: docs/active/tickets/T-002-02-spot-detail-view.md
-  - id: T-002-03
-    title: Build EraTimeline component with expandable cards
-    story: S-002
-    description: Build the EraTimeline component that renders a vertical list of expandable era cards. Each card shows a themed icon, year, and era title. Tapping a card expands it to reveal the historical description and audio narration button while collapsing any previously expanded card.
-    priority: 1
-    complexity: M
-    status: complete
-    assignee: null
-    completed_at: 2026-01-30T03:15:00.000Z
-    path: docs/active/tickets/T-002-03-era-timeline.md
-  - id: T-002-04
-    title: Build ImageCarousel component with year badges
-    story: S-002
-    description: Build the ImageCarousel component that displays a horizontally-scrollable series of historical images, one per era. Each image shows a year badge in the corner, and pagination dots below indicate the current position.
-    priority: 1
-    complexity: M
-    status: ready
-    assignee: null
-    path: docs/active/tickets/T-002-04-image-carousel.md
-  - id: T-007-02
-    title: Build video download and local storage service
-    story: S-007
-    description: Create a service that downloads videos from DashScope's temporary URLs and persists them to the local filesystem at `static/videos/`. This is critical because DashScope URLs expire after 24 hours, so videos must be downloaded immediately after generation completes.
-    priority: 1
-    complexity: M
-    status: ready
-    assignee: null
-    path: docs/active/tickets/T-007-02-video-download-service.md
-  - id: T-006-03
-    title: Build EraAccordion component
-    story: S-006
-    description: Build the EraAccordion component that manages the accordion state and renders a vertical stack of EraCard components. Only one era can be expanded at a time, and the first era is expanded by default.
-    priority: 1
-    complexity: M
-    status: ready
-    assignee: null
-    path: docs/active/tickets/T-006-03-era-accordion.md
-  - id: T-008-03
-    title: Build BottomNav component and update components to use design tokens
-    story: S-008
-    description: Build the BottomNav component matching the wireframe's four-icon navigation bar, and audit all existing components to replace hardcoded colors and values with the new design tokens. This ensures visual consistency across the entire app.
-    priority: 1
-    complexity: M
-    status: ready
-    assignee: null
-    path: docs/active/tickets/T-008-03-bottom-nav-token-adoption.md
-  - id: T-004-02
-    title: Integrate placeholder fallback and era transitions
-    story: S-004
-    description: Integrate the PromptPlaceholder component into EraVideoPlayer as a fallback for missing videos, and add smooth transitions when switching between eras. This completes the video player with graceful degradation and polished interactions.
-    priority: 2
-    complexity: M
-    status: ready
-    assignee: null
-    path: docs/active/tickets/T-004-02-video-player-integration.md
-  - id: T-003-02
-    title: Build PromptPlaceholder component
-    story: S-003
-    description: Build the PromptPlaceholder component that displays a WAN prompt in the video area when no video is available. The placeholder should be visually attractive and clearly indicate that it represents a video-to-be-generated while still feeling like part of the polished app experience.
-    priority: 2
-    complexity: S
-    status: ready
-    assignee: null
-    path: docs/active/tickets/T-003-02-prompt-placeholder.md
-  - id: T-005-02
-    title: Build SpotBrowser main page
-    story: S-005
-    description: Build the SpotBrowser page as the app's main landing page, displaying a header with TimeLens branding and a grid of SpotCards for all available locations.
-    priority: 1
-    complexity: M
-    status: ready
-    assignee: null
-    path: docs/active/tickets/T-005-02-spot-browser-page.md
-  - id: T-006-01
-    title: Build SpotDetailHeader component
-    story: S-006
-    description: Build the SpotDetailHeader component that displays a back arrow and the spot name with museum-exhibit typography. The header establishes the visual identity of the detail view with small caps, letterspacing, and the warm color palette.
-    priority: 1
-    complexity: S
-    status: ready
-    assignee: null
-    path: docs/active/tickets/T-006-01-spot-detail-header.md
-  - id: T-005-01
-    title: Build SpotCard component
-    story: S-005
-    description: Build the SpotCard component that displays a single spot as a tappable card with its image, name, description snippet, and era count. This component is used in the Spot Browser grid.
-    priority: 1
-    complexity: S
-    status: ready
-    assignee: null
-    path: docs/active/tickets/T-005-01-spot-card.md
-  - id: T-008-01
-    title: Create global CSS theme file with design tokens
-    story: S-008
-    description: Create a global CSS file that defines all design tokens as CSS custom properties and establishes base styles for the app. This provides a single source of truth for colors, typography, spacing, and other visual constants that all components will reference.
-    priority: 1
-    complexity: S
-    status: ready
-    assignee: null
-    path: docs/active/tickets/T-008-01-css-theme-tokens.md
-  - id: T-007-01
-    title: Build prompt enhancement system for era-specific visual styles
-    story: S-007
-    description: Create a prompt enhancement system that takes the existing wanPrompt from era data and enriches it with era-specific visual modifiers for film style, grain characteristics, and color grading. This ensures generated videos have period-appropriate aesthetics that reinforce the time-travel experience.
-    priority: 1
-    complexity: S
-    status: ready
-    assignee: null
-    path: docs/active/tickets/T-007-01-prompt-enhancement.md
+    path: docs/active/tickets/T-009-03-document-deployment.md
 edges: []
 meta:
-  total_stories: 8
-  total_tasks: 22
-  total_milestones: 3
+  total_stories: 2
+  total_tasks: 4
+  total_milestones: 4
   by_status:
-    ready: 18
+    ready: 2
     pending: 0
     in_progress: 1
-    complete: 3
+    complete: 1
     blocked: 0
+  archived_sprint_1:
+    stories: S-002, S-003, S-004, S-005, S-006, S-007, S-008
+    tickets: 21 tickets (T-002-* through T-008-*)
+    location: docs/archive/stories/sprint-1/, docs/archive/tickets/sprint-1/
   by_milestone: {}

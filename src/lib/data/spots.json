@@ -28,7 +28,7 @@
           "yearEnd": 1920,
           "description": "Italian immigrants established the fishing fleet that gave the wharf its name. Feluccas and crab pots lined the waterfront as fishermen brought in the day's catch of Dungeness crab, salmon, and herring.",
           "wanPrompt": "San Francisco Fisherman's Wharf in 1910, Italian fishing boats called feluccas with lateen sails moored at wooden piers, fishermen in wool caps mending nets, stacks of wooden crab traps on the dock, fish market stalls with hand-painted signs, horse-drawn carts carrying ice and fish, early morning golden light. Slow tracking shot along the busy pier. Early cinema documentary style, black and white with slight sepia tint, authentic period atmosphere.",
-          "videoUrl": null,
+          "videoUrl": "/videos/fishermans-wharf-fishermans-wharf-industrial.mp4",
           "icon": "factory"
         },
         {
@@ -61,7 +61,7 @@
           "yearEnd": 1906,
           "description": "The Ferry Building opened in 1898 as the second busiest transit terminal in the world. Its 245-foot clock tower became the defining symbol of San Francisco's waterfront, welcoming thousands of daily commuters.",
           "wanPrompt": "San Francisco Ferry Building in 1900, the grand Beaux-Arts terminal with its iconic clock tower, crowds of well-dressed commuters in bowler hats and long skirts streaming toward ferry boats, horse-drawn carriages and early automobiles on the Embarcadero, American flags flying, steam whistles and bell sounds implied by the bustling activity. Sweeping crane shot revealing the full building facade. Period newsreel style, black and white, documentary authenticity.",
-          "videoUrl": null,
+          "videoUrl": "/videos/ferry-building-ferry-building-construction.mp4",
           "icon": "ship"
         },
         {
@@ -71,7 +71,7 @@
           "yearEnd": 1989,
           "description": "The Embarcadero Freeway cut off the Ferry Building from the city, casting it in shadow and reducing it to a forgotten relic. The building fell into disrepair as ferry traffic dwindled after the bridges opened.",
           "wanPrompt": "San Francisco Ferry Building in 1975 obscured by the elevated Embarcadero Freeway, concrete highway structure dominating the waterfront, the clock tower barely visible behind highway pillars, sparse foot traffic, urban decay atmosphere, parked cars from the era, muted colors and overcast sky. Static wide shot emphasizing the freeway's imposing presence. Gritty 1970s documentary style, desaturated colors, film grain.",
-          "videoUrl": null,
+          "videoUrl": "/videos/ferry-building-ferry-building-freeway.mp4",
           "icon": "building"
         },
         {
@@ -81,7 +81,7 @@
           "yearEnd": null,
           "description": "After the 1989 earthquake damaged the freeway, it was demolished and the Ferry Building was restored to glory. Today it houses an artisan food marketplace and hosts the famous Saturday farmers market.",
           "wanPrompt": "Modern San Francisco Ferry Building on a Saturday morning, bustling farmers market with colorful produce stands, food lovers sampling artisan cheeses and fresh pastries, the restored clock tower gleaming in sunlight, palm trees lining the Embarcadero, ferry boats visible at the docks, cyclists and pedestrians enjoying the open waterfront. Smooth steadicam shot weaving through the market crowd. Contemporary food documentary style, warm natural lighting, appetizing details.",
-          "videoUrl": null,
+          "videoUrl": "/videos/ferry-building-ferry-building-renaissance.mp4",
           "icon": "building"
         }
       ]
@@ -124,7 +124,7 @@
           "yearEnd": 1969,
           "description": "Golden Gate Park became the heart of the counterculture movement. The Human Be-In of 1967 drew 30,000 people to the Polo Fields, launching the Summer of Love and establishing San Francisco as the capital of flower power.",
           "wanPrompt": "Golden Gate Park during the 1967 Human Be-In, thousands of hippies gathered on the Polo Fields, colorful tie-dye clothing and flower crowns everywhere, people sitting on blankets and dancing freely, hand-painted banners promoting peace and love, acoustic guitars being played in circles, incense smoke drifting through the air, Timothy Leary on a distant stage. Sweeping aerial-style shot over the peaceful gathering. Vintage 1960s documentary footage style, slightly oversaturated colors, era-defining atmosphere.",
-          "videoUrl": null,
+          "videoUrl": "/videos/golden-gate-park-ggp-summer-love.mp4",
           "icon": "flower"
         }
       ]
@@ -147,7 +147,7 @@
           "yearEnd": 1880,
           "description": "Chinese workers who built the transcontinental railroad settled in this neighborhood, creating a self-sufficient community with their own businesses, temples, and traditions despite facing severe discrimination.",
           "wanPrompt": "San Francisco Chinatown in 1875, narrow streets lined with wooden buildings featuring Chinese signage, men in traditional changshan clothing and queue hairstyles, merchants selling goods from open storefronts, hanging paper lanterns, a small temple with incense smoke, laundry hanging between buildings, horse-drawn cart navigating the crowded street. Intimate tracking shot through the busy alley. Historical documentary style, sepia tones, authentic period details.",
-          "videoUrl": null,
+          "videoUrl": "/videos/chinatown-chinatown-railroad.mp4",
           "icon": "train"
         },
         {
@@ -157,7 +157,7 @@
           "yearEnd": 1915,
           "description": "After the 1906 earthquake destroyed the original Chinatown, the community rebuilt in an elaborate Oriental style to attract tourists and prevent relocation. The distinctive architecture we see today was born from this strategic reinvention.",
           "wanPrompt": "San Francisco Chinatown being rebuilt in 1910, construction workers on bamboo scaffolding installing decorative pagoda rooftops, new buildings featuring ornate balconies and dragon motifs, merchants reopening shops amid construction, mix of Western and Chinese architectural elements, the famous Dragon Gate under construction, optimistic atmosphere of renewal. Documentary tracking shot through the transforming streetscape. Early cinema style, black and white, historical reconstruction.",
-          "videoUrl": null,
+          "videoUrl": "/videos/chinatown-chinatown-rebuild.mp4",
           "icon": "building"
         },
         {
@@ -167,7 +167,7 @@
           "yearEnd": null,
           "description": "Today's Chinatown blends historic charm with modern vitality. Traditional herbalists and dim sum restaurants operate alongside contemporary businesses, while festivals like Chinese New Year draw millions of visitors.",
           "wanPrompt": "Modern San Francisco Chinatown on a busy afternoon, tourists and locals walking under red lanterns on Grant Avenue, traditional herbal medicine shops next to modern bakeries, elderly residents practicing tai chi in Portsmouth Square, dragons and lions decorating storefronts, the ornate Dragon Gate welcoming visitors, neon signs mixing with traditional calligraphy. Steadicam shot weaving through the colorful streetscape. Contemporary travel documentary style, vibrant colors, cultural richness.",
-          "videoUrl": null,
+          "videoUrl": "/videos/chinatown-chinatown-modern.mp4",
           "icon": "temple"
         }
       ]

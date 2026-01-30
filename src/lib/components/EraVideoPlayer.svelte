@@ -37,9 +37,9 @@
 				<video
 					src={era.videoUrl}
 					loop
-					muted
 					autoplay
 					playsinline
+					controls
 					onerror={handleError}
 				>
 					<track kind="captions" />

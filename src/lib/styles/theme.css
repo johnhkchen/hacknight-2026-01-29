@@ -6,13 +6,13 @@
    ========================================================================== */
 
 :root {
-	/* Colors - Warm museum-exhibit aesthetic */
-	--color-background: #faf8f5; /* Warm cream background */
-	--color-primary: #e07a5f; /* Coral accent for buttons and highlights */
+	/* Colors - Updated color scheme */
+	--color-background: #f6fbfd; /* Light blue-tinted white background */
+	--color-primary: #da4c29; /* Orange-red for buttons and highlights */
 	--color-secondary: #5f9ea0; /* Muted teal for icons and nav */
-	--color-text: #3d3d3d; /* Dark brown text (not pure black) */
+	--color-text: #3c3c3e; /* Dark gray text */
 	--color-text-light: #6b6b6b; /* Secondary text */
-	--color-border: #e5e0db; /* Subtle borders */
+	--color-border: #da4c29; /* Orange-red for dividers */
 
 	/* Desktop background for phone-preview effect */
 	--color-background-outer: #e8e4e0; /* Light gray for desktop frame */

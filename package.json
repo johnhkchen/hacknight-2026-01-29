@@ -16,7 +16,10 @@
 		"generate-videos": "tsx scripts/generate-videos.ts",
 		"generate-all": "tsx scripts/generate-all-missing.ts",
 		"backfill-failed": "tsx scripts/backfill-failed-videos.ts",
-		"check-status": "tsx scripts/check-video-status.ts"
+		"check-status": "tsx scripts/check-video-status.ts",
+		"unstick": "tsx scripts/unstick-generating.ts",
+		"generate-remaining": "tsx scripts/generate-remaining.ts",
+		"fix-one": "tsx scripts/fix-one-video.ts"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-cloudflare": "^6.0.1",
