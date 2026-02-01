@@ -6,6 +6,7 @@
 	let { data } = $props();
 
 	let selectedEraId = $state(data.spot.eras[0]?.id ?? '');
+	let unmuteFn: (() => void) | null = $state(null);
 
 	const selectedEra: Era | undefined = $derived(
 		data.spot.eras.find((era) => era.id === selectedEraId)
@@ -13,6 +14,14 @@
 
 	function selectEra(eraId: string) {
 		selectedEraId = eraId;
+	}
+
+	function handleUnmuteReady(fn: () => void) {
+		unmuteFn = fn;
+	}
+
+	function handleUnmute() {
+		unmuteFn?.();
 	}
 
 	function formatYearRange(era: Era): string {
@@ -34,7 +43,7 @@
 	<!-- Era video player with prompt fallback -->
 	<div class="video-area">
 		{#if selectedEra}
-			<EraVideoPlayer era={selectedEra} />
+			<EraVideoPlayer era={selectedEra} onUnmuteReady={handleUnmuteReady} />
 		{/if}
 	</div>
 
@@ -56,6 +65,7 @@
 				eras={data.spot.eras}
 				{selectedEraId}
 				onselect={selectEra}
+				onunmute={handleUnmute}
 			/>
 		</section>
 	</div>

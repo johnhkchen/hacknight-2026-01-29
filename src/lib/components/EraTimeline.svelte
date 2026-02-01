@@ -6,9 +6,10 @@
 		eras: Era[];
 		selectedEraId: string;
 		onselect?: (eraId: string) => void;
+		onunmute?: () => void;
 	}
 
-	let { eras, selectedEraId, onselect }: Props = $props();
+	let { eras, selectedEraId, onselect, onunmute }: Props = $props();
 
 	function handleCardClick(eraId: string): void {
 		onselect?.(eraId);
@@ -83,8 +84,9 @@
 						class="audio-button"
 						onclick={(e) => {
 							e.stopPropagation();
+							onunmute?.();
 						}}
-						aria-label="Listen to the story about {era.title}"
+						aria-label="Hear the sounds of {era.title}"
 					>
 						<svg
 							class="speaker-icon"
@@ -100,7 +102,7 @@
 							<path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
 							<path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
 						</svg>
-						<span>Listen to the story</span>
+						<span>Hear the sounds</span>
 					</button>
 				</div>
 			{/if}

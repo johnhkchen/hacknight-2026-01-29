@@ -5,16 +5,32 @@
 
 	interface Props {
 		era: Era;
+		onUnmuteReady?: (unmuteFn: () => void) => void;
 	}
 
-	let { era }: Props = $props();
+	let { era, onUnmuteReady }: Props = $props();
 
 	let hasError = $state(false);
+	let isMuted = $state(true);
+	let videoElement: HTMLVideoElement | null = $state(null);
 
-	// Reset error state when era changes
+	// Reset error state and mute when era changes
 	$effect(() => {
 		era.id; // Track era.id
 		hasError = false;
+		isMuted = true;
+	});
+
+	// Expose unmute function to parent when video is ready
+	$effect(() => {
+		if (videoElement && onUnmuteReady) {
+			onUnmuteReady(() => {
+				isMuted = false;
+				if (videoElement) {
+					videoElement.muted = false;
+				}
+			});
+		}
 	});
 
 	function handleError() {
@@ -35,9 +51,11 @@
 			<div class="video-container" transition:fade={{ duration: 300 }}>
 				<!-- svelte-ignore a11y_missing_attribute -->
 				<video
+					bind:this={videoElement}
 					src={era.videoUrl}
 					loop
 					autoplay
+					muted={isMuted}
 					playsinline
 					controls
 					onerror={handleError}
