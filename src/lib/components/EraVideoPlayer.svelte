@@ -57,7 +57,6 @@
 					autoplay
 					muted={isMuted}
 					playsinline
-					controls
 					onerror={handleError}
 				>
 					<track kind="captions" />
